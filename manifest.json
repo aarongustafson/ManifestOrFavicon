@@ -1,0 +1,37 @@
+{
+  "dir": "ltr",
+  "lang": "en-US",
+  "name": "Favicon or Manifest?",
+  "short_name": "WhichIcon?",
+  "scope": "/",
+  "display": "standalone",
+  "start_url": "https://faviconormanifest.azurewebsites.net",
+  "theme_color": "transparent",
+  "description": "Just a test",
+  "orientation": "any",
+  "background_color": "transparent",
+  "related_applications": [],
+  "prefer_related_applications": false,
+  "icons": [
+    {
+      "src": "manifest-360.gif",
+      "type": "image/gif",
+      "sizes": "360x360"
+    },
+    {
+      "src": "manifest-256.gif",
+      "type": "image/gif",
+      "sizes": "256x256"
+    },
+    {
+      "src": "manifest-64.gif",
+      "type": "image/gif",
+      "sizes": "64x64"
+    },
+    {
+      "src": "manifest-32.gif",
+      "type": "image/gif",
+      "sizes": "32x32"
+    }
+  ]
+}

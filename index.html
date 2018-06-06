@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <!--  Meta  -->
+  <meta charset="UTF-8" />
+  <title>Which Icon?</title>
+  <link rel="manifest" href="manifest.json">
+  <!--  Styles  -->
+  <link rel="stylesheet" href="/c/default.css">
+  <link rel="icon" href="favicon.ico">
+</head>
+<body>
+  <h1>What favicon will the browser use?</h1>
+  <p>Will it be the favicon or the manifest icon?</p>
+  
+  <!-- Scripts -->
+  <script>
+    if (navigator.serviceWorker) {
+      navigator.serviceWorker.register('/sw.js');
+    }
+  </script>
+</body>
+</html>
